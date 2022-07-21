@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .sam .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active, .MuiSvgIcon-root.MuiStepIcon-root.Mui-active.css-4ff9q7 {
+      border-radius: 50%;
+      background-color: red !important;
+      animation-name: example3;
+      animation-duration: 0.75s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+  
+    @keyframes example1 {
+      from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+    }  
+  @keyframes example {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      100% {background-color: green;}
+    }
+    @keyframes example3 {
+      0%   {opacity: 0;transform: scale(1);}
+      10%  {opacity: 0.2;transform: scale(1.1)}
+      20%  {opacity: 0.4;transform: scale(1.2)}
+      30%  {opacity: 0.6;transform: scale(1.3)}
+      40%  {opacity: 0.8;transform: scale(1.4)} 
+      50%  {opacity: 1;transform: scale(1.5);}
+      60%  {opacity: 0.8;transform: scale(1.4)}
+      70%  {opacity: 0.6;transform: scale(1.3)}
+      80%  {opacity: 0.4;transform: scale(1.2)}
+      90%  {opacity: 0.2;transform: scale(1.1)} 
+     100%  {opacity: 0;transform: scale(1)}
+    }
+    .css-o69gx8-MuiCardMedia-root, img {
+        border-radius: 50% !important;
+        width: 70% !important;
+        
+    }
+   
+  
+    .MuiBox-root.css-8atqhb {
+        padding: 1.5em    !important;
+        background-color:rgb(215, 236, 233) !important;
+        width: auto;
+    }
+    
+    .MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.makeStyles-mystyle-1.css-10mg1vw-MuiStepper-root {
+        padding-top: 20px  !important;
+    } 
+  
+    .MuiBox-root.css-2royc9{
+        padding: 1.5em    !important; 
+    }
